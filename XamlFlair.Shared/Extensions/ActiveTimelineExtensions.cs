@@ -18,7 +18,7 @@ using Timeline = XamlFlair.AnimationGroup;
 using XamlFlair.UWP.Logging;
 #elif __UNO__
 using Timeline = Windows.UI.Xaml.Media.Animation.Storyboard;
-using XamlFlair.Uno.Logging;
+using XamlFlair.UnoPlatform.Logging;
 #endif
 
 namespace XamlFlair.Extensions
